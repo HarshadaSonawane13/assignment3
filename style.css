@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3c1ec;
+    text-align: center;
+}
+
+h2 {
+    color: #9743a9;
+    margin-top: 20px;
+}
+
+/* FORM BOX */
+form {
+    width: 320px;
+    margin: auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+/* LABEL */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* INPUT */
+input {
+    width: 100%;              /* SAME WIDTH */
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    box-sizing: border-box;   /* important to keep same width */
+}
+
+/* BUTTON */
+button {
+    width: 100%;              /* SAME WIDTH */
+    padding: 12px;
+    margin-top: 18px;
+    background: #b45ac9;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #a03dbb;
+}
+
+/* ERROR MESSAGE */
+#errorMsg {
+    margin-top: 15px;
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
